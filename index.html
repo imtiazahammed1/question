@@ -25,7 +25,7 @@
                         <strong>How does JavaScript work?</strong>
                     </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
                         JavaScript is called a Client-side Scripting Language and one of the most commonly
@@ -66,7 +66,30 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                     data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        It is
+                        The difference between local storage and session storage is given below:
+                        <br>
+                        <br>
+                        i) <strong>How to store:</strong> LocalStorage stores data with no expiration date whereas
+                        SessionStorage stores data for one session that means data is lost when the browser tab is
+                        closed.
+                        <br>
+                        <br>
+                        ii) <strong>Better Choice:</strong> SessionStorage is a better choice over LocalStorage because
+                        session data is cleared when the browser tab is closed.
+                        <br>
+                        <br>
+                        iii) <strong>How to delete:</strong> LocalStorage data need to be deleted via JavaScript by
+                        using clear method of local storage [For ex: localStorage.clear()] whereas SessionStorage data
+                        is deleted when the browser tab or page session ends.
+                        <br>
+                        <br>
+                        iv) <strong>Accessible from:</strong> We can access the LocalStorage from any window whereas
+                        SessionStorage needs the same tab for access.
+                        <br>
+                        <br>
+                        v) <strong>Capacity:</strong> LocalStorage capacity is 5-10 Mbs(Browser Dependent) whereas
+                        SessionStorage capacity is always about 5 Mb.
+
                     </div>
                 </div>
             </div>
